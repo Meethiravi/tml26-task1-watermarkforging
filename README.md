@@ -97,11 +97,10 @@ the rest from `submission_temp_v5/`.
 
 ## Repository contents (experiments referenced in the report)
 
-- `kutter_iteration1.py` — DC-subtraction average-residual baseline (0.257).
+- `naive_baseline.py` — DC-subtraction average-residual baseline (0.257).
 - `yang_iteration1.py`, `yang_resize.py`, `yang_iter4.py` — mean-difference
   estimator + high-pass cleanup + NVF mask + LPIPS calibration (0.291).
 - `forgev3.py` — mean/median/high-pass estimator ablation with per-batch alpha.
-- `kutter_iteration2.py`, `kutter_yang.py` — Kutter copy attack (Wiener + NVF).
 - `forgev4.py` — final BM3D residual copy attack.
 - `forge_preference.py` — preference-direction feature-space attack (prepared
   fallback for no-residual batches; not used in the final 0.612 run).
