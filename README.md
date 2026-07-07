@@ -98,14 +98,14 @@ the rest from `submission_temp_v5/`.
 ## Repository contents (experiments referenced in the report)
 
 - `naive_baseline.py` — DC-subtraction average-residual baseline (0.257).
-- `yang_iteration1.py`, `yang_resize.py`, `yang_iter4.py` — mean-difference
-  estimator + high-pass cleanup + NVF mask + LPIPS calibration (0.291).
+- `yangimplementation.py` — mean-diff watermark extraction.
+- `kutter_yang.py` - mean-diff watermark extraction + NVF masking + LPIPS-calibrated injection.
 - `forgev3.py` — mean/median/high-pass estimator ablation with per-batch alpha.
 - `forgev4.py` — final BM3D residual copy attack.
 - `forge_preference.py` — preference-direction feature-space attack (prepared
   fallback for no-residual batches; not used in the final 0.612 run).
 - `wmcopier.py` — WMCopier diffusion reproduction.
-- `soucek.py` — preference-model reproduction (early version).
+- `soucek.py` — preference-model reproduction.
 - `identify.py`, `identify2.py` — earlier identification probes (buggy: absolute
   threshold, no held-out validation — kept to document the correction).
 - `identify3.py` — corrected identification (baseline-relative margin +
