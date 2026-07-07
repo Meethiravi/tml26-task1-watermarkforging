@@ -1,6 +1,6 @@
 # TML 2026 — Assignment 4: Watermark Forgery Attack
 
-Final leaderboard score: **0.612**.
+Final leaderboard score: **0.611576**.
 
 This README explains only how to reproduce our **best** leaderboard result.
 Every other script in the repo corresponds to an experiment described in the
