@@ -76,13 +76,6 @@ class PreferenceModel(nn.Module):
         return self.head(self.features(x)).squeeze(-1)
 
 def generate_synthetic_artifact(batch_size, h=IMG_SIZE, w=IMG_SIZE):
-    """
-    Generate random synthetic artifacts mimicking watermark patterns.
-    Souček trains on a mix of:
-    1. Sinusoidal/Fourier patterns (common in frequency-domain watermarks)
-    2. Random noise patterns (spread-spectrum watermarks)
-    3. Structured grid patterns (block-based watermarks)
-    """
     artifacts = []
     for _ in range(batch_size):
         artifact_type = np.random.randint(3)
