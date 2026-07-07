@@ -104,7 +104,7 @@ the rest from `submission_temp_v5/`.
 - `forgev4.py` — final BM3D residual copy attack.
 - `forge_preference.py` — preference-direction feature-space attack (prepared
   fallback for no-residual batches; not used in the final 0.612 run).
-- `wmcopier_iter1.py`, `wmcopier_iter2.py` — WMCopier diffusion reproduction.
+- `wmcopier_iter2.py` — WMCopier diffusion reproduction.
 - `soucek.py` — preference-model reproduction (early version).
 - `identify.py`, `identify2.py` — earlier identification probes (buggy: absolute
   threshold, no held-out validation — kept to document the correction).
